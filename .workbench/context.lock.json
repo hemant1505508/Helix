@@ -1,0 +1,9 @@
+{
+  "schema": "adlc.context.lock/1",
+  "projectId": "PRJ-HELIX-EPQO",
+  "state": "not_finalised",
+  "fingerprint": "e3b0c44298fc1c14",
+  "finalisedFingerprint": null,
+  "items": [],
+  "locked": false
+}

@@ -1,0 +1,109 @@
+{
+  "schema": "adlc.manifest/1",
+  "projectId": "PRJ-HELIX-EPQO",
+  "projectName": "Helix",
+  "customer": "Helix",
+  "developer": {
+    "id": "hemant-dev",
+    "name": "Hemant"
+  },
+  "agentsProject": false,
+  "minCliVersion": 1,
+  "syncIntervalSeconds": 300,
+  "contentHash": "11941d1b11848280000a8011c0cedc8fae9bdbb7ba03706ce87595fcc559131f",
+  "parts": {
+    "policy": "8919890883af520e",
+    "context": "eafa8d5a5da61cef",
+    "skills": "e3b0c44298fc1c14",
+    "tasks": "d325bcadbc790980"
+  },
+  "locked": [
+    ".claude/skills/project-policy/SKILL.md",
+    ".claude/skills/project-policy/in-force.md",
+    ".workbench/CODEOWNERS.snippet",
+    ".workbench/policy.lock.json"
+  ],
+  "enforcement": {
+    "tool": "claude_code",
+    "block": "advisory",
+    "summary": "Strength of this file: Block is ADVISORY. Across its 8 controls: 4 advisory, 4 not possible. Not yet tested on a real installation.",
+    "counts": {
+      "enforced": 0,
+      "advisory": 4,
+      "not_possible": 4,
+      "to_test": 0
+    },
+    "controls": 8,
+    "tested": false
+  },
+  "tasks": [
+    {
+      "taskId": "TS-001",
+      "mode": "sdlc",
+      "title": "TS-001",
+      "path": ".workbench/tasks/TS-001.md"
+    }
+  ],
+  "files": [
+    {
+      "path": ".claude/skills/current-task/SKILL.md",
+      "sha256": "8fc4d50881a8cafe"
+    },
+    {
+      "path": ".claude/skills/project-context/SKILL.md",
+      "sha256": "aebf8e49c8edff55"
+    },
+    {
+      "path": ".claude/skills/project-context/documents.md",
+      "sha256": "7f3899f38e22ac20"
+    },
+    {
+      "path": ".claude/skills/project-context/incidents.md",
+      "sha256": "8b4718994b649f1a"
+    },
+    {
+      "path": ".claude/skills/project-context/tests.md",
+      "sha256": "a028a121f08b27cd"
+    },
+    {
+      "path": ".claude/skills/project-policy/SKILL.md",
+      "sha256": "7601ef299b55d0e4"
+    },
+    {
+      "path": ".claude/skills/project-policy/in-force.md",
+      "sha256": "18717cd648211c81"
+    },
+    {
+      "path": ".workbench/CODEOWNERS.snippet",
+      "sha256": "a5051c922fb770a8"
+    },
+    {
+      "path": ".workbench/README.md",
+      "sha256": "c55239b323a125b7"
+    },
+    {
+      "path": ".workbench/ci/azure-pipelines.yml",
+      "sha256": "ea2c5fc4886ed416"
+    },
+    {
+      "path": ".workbench/ci/github-actions.yml",
+      "sha256": "20adc2811d6b21c7"
+    },
+    {
+      "path": ".workbench/claude-hooks.json",
+      "sha256": "0c5cb0316732450d"
+    },
+    {
+      "path": ".workbench/context.lock.json",
+      "sha256": "50e3bff22cb4e561"
+    },
+    {
+      "path": ".workbench/policy.lock.json",
+      "sha256": "2931c1dedde4b0e3"
+    },
+    {
+      "path": ".workbench/tasks/TS-001.md",
+      "sha256": "ded704dbcac5166c"
+    }
+  ]
+}
