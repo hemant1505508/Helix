@@ -1,0 +1,13 @@
+{
+  "name": "helix",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Helix AP portal: reporting",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
